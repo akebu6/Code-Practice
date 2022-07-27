@@ -1,0 +1,27 @@
+/*******************************************************************************************************************************************************
+* Groundhogs like to throw fun parties, and at their parties, they like to munch on Reese's peanut butter cups. But not too much of it, or they will feel sick! A successful groundhog party should have between 10 and 20 Reese's peanut butter cups (inclusive) unless it is the weekend. In this case, they need 15 to 25 Reeses peanut butter cups (inclusive).
+*
+* Write a Kotlin program that reads two values:
+* the first is the number of Reese's peanut butter cups;
+* the second is a boolean value that represents whether it is the weekend or not.
+* Output the boolean value that tells us whether the party is successful or not.
+*******************************************************************************************************************************************************/
+
+// SOLUTION
+const val TEN = 10
+const val FIFTEEN = 15
+const val TWENTY = 20
+const val TWENTY_FIVE = 25
+
+fun main() {
+    val numberOfCups = readln().toInt()
+    val isWeekend = readln().toBoolean()
+
+    if (isWeekend == false && numberOfCups in TEN..TWENTY || 
+        isWeekend == true && numberOfCups in FIFTEEN..TWENTY_FIVE
+    ) {
+        println(true)
+    } else {
+        println(false)
+    }
+}
