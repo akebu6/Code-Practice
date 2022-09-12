@@ -9,8 +9,8 @@
 fun main() {
     var count = 0
     do {
-        val n = readln().toInt()
+        val input = readln().toInt()
         count++
-    } while (n != 0)
+    } while (input != 0)
     println(count - 1)
 }
