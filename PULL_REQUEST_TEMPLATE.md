@@ -3,7 +3,7 @@
 ## All Submissions:
 
 * [ ] Have you read and acknowledged our Code of Conduct?
-* [ ] Have you checked to ensure there aren't other open [Pull Requests](https://github.com/akebu6/Kotlin-Code[docs/pulls)
+* [ ] Have you checked to ensure there aren't other open [Pull Requests](https://github.com/akebu6/Kotlin-Code/pulls)
 
 ## Description
 
