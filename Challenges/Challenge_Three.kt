@@ -4,9 +4,5 @@
 Write a program that reads an integer number of exbibyte and converts this amount of information into bits.
 */
 
-// SOLUTION
-fun main() {
-    val input: BigInteger = BigInteger(readln())
-    val result: BigInteger = input * BigInteger.TWO.pow(SIXTY_THREE)
-    println(result)
-}
+// SOLUTION CAN BE FOUND IN SOLUTION DIRECTORY
+

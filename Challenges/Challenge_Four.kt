@@ -5,11 +5,4 @@ Input data format[
 The first input line contains a string, the second one contains a substring.
 */
 
-// SOLUTION
-fun main() { 
-    val phrase = readln().replace(" ", "")
-    val word = readln()
-    val result = phrase.split(word)
-
-    println(result.lastIndex)
-}
+// SOLUTION CAN BE FOUND IN SOLUTION DIRECTORY

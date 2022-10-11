@@ -9,8 +9,4 @@
 * Please, don't remove the variable myFile, we need it to check your answer
 ********************************************************************************************************************************************************/
 
-// SOLUTION
-fun main() {
-    val myFile = File("MyCases.txt")
-    myFile.appendText("\nThe Sign of the Four")
-}
+// SOLUTION CAN BE FOUND IN SOLUTION DIRECTORY

@@ -8,10 +8,4 @@
 * The single input line contains s and n separated by a space.
 ******************************************************************************************************************************************************************/
 
-// SOLUTION
-fun main() {
-    val (s, sn) = readln().split(" ")
-    val n = sn.toInt()
-    
-    println(s.drop(n) + s.take(n))
-}
+// SOLUTION CAN BE FOUND IN SOLUTION DIRECTORY
