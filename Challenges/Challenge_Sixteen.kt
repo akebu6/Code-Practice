@@ -20,7 +20,4 @@
 * meowmeow
 ***********************************************************************************/
 
-// SOLUTION
-    val text = readLine()!!
-    val myFile = File("MyFile.txt")
-    myFile.writeText("$text$text")
+// SOLUTION CAN BE FOUND IN SOLUTION DIRECTORY

@@ -14,20 +14,5 @@
 * If the input operator is not in the list, output Unknown operator.
 ************************************************************************************************************************/
 
-// SOLUTION
-import java.util.Scanner
+// SOLUTION CAN BE FOUND IN SOLUTION DIRECTORY
 
-fun main() {
-    val scanner = Scanner(System.`in`)
-    val inputOne = scanner.nextLong()
-    val inputOperator = scanner.next()
-    val inputTwo = scanner.nextLong()
-
-    when (inputOperator) {
-        "+" -> println(inputOne + inputTwo)
-        "-" -> println(inputOne - inputTwo)
-        "*" -> println(inputOne * inputTwo)
-        "/" -> if (inputTwo == 0L) println("Division by 0!") else println(inputOne / inputTwo)
-        else -> println("Unknown operator")
-    }
-}

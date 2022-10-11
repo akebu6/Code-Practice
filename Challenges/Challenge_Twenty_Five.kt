@@ -5,8 +5,4 @@
 * To complete this task, use the function matches().
 *********************************************************************************************************************************************/
 
-// SOLUTION
-fun main() {
-    val answer = readln()
-    println(Regex("I can'?t? do my homework on time!").matches(answer))  
-}
+// SOLUTION CAN BE FOUND IN SOLUTION DIRECTORY

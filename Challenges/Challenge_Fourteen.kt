@@ -4,18 +4,4 @@
 * For example, if n is 7, the program should output 1 2 2 3 3 3 4 (seven numbers).
 *****************************************************************************************************************************************************************/
 
-// SOLUTION
-fun main() {
-    val n = readln().toInt() 
-    var numCurrent = 0
-    var numPrinted = 1
-    while (numPrinted <= n) {
-        repeat(numCurrent) {
-            if (numPrinted <= n) {
-                print("$numCurrent ")
-                numPrinted++
-            }
-        }
-        numCurrent++
-    }
-}
+// SOLUTION CAN BE FOUND IN SOLUTION DIRECTORYfun main() {
