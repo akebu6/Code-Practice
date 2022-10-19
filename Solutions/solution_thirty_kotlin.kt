@@ -1,6 +1,6 @@
 fun main() {
     println("Enter a number: ")
-    val input = readLine()!!.toInt()
+    val input = readLine()!!.toInt() // Not-null assertion operator (!!) so that a value has to be input
 
     print("No. of digits: ")
     when (input) {
