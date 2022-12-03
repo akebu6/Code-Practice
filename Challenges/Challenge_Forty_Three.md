@@ -1,0 +1,1 @@
+Write a program that reads five integer numbers. The first and the second numbers create one range, and the third and the fourth ones create another range. Output true if the fifth number is in at least one of these ranges, otherwise output false.
