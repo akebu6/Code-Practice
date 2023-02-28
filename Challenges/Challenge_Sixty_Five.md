@@ -1,0 +1,1 @@
+Write the code for the function printColor(myImage: BufferedImage). It reads 2 integers x and y (divided by space) and then gets the color at the position (x, y) of myImage. Finally, it prints the color values in the following order: Red, Green, Blue, Alpha, with a single space between the values.
